@@ -4,30 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
     <link rel="stylesheet" href="style.css">
-    <title>Rock Paper Scissors</title>
     <script src="main.js"></script>
 </head>
 <body>
-   
-        <h1>Rock Paper Scissors</h1>
-   
-    <div class="images">
-        <img src="img/rock-emoji.png" class="imgs" onclick="playGame('Rock')">
-        <img src="img/paper-emoji.png" class="imgs" onclick="playGame('Paper')">
-        <img src="img/scissors-emoji.png" class="imgs" onclick="playGame('Scissors')">
+    <h1>Todo<span>List</span></h1>
+    <div class="container">
+        <input type="text" class="input" onkeydown="overAll()">
+        <button class="btn" onclick="doSome()">Add</button>
     </div>
-
     <div class="content">
-        <p class="move">Pick a move to play !</p>
-        <p class="result">Results: ?</p>
-        <p class="score">Score's: Wins: 0,Loss: 0,Ties: 0</p>
-        <input type="button" value="Rest" class="btn" onclick="
-        dosome(),
-        scores.wins = 0;
-        scores.loss = 0;
-        scores.ties = 0;
-        ">
+        <!-- <p>Me and you</p>
+        <p>Me and you</p>
+        <p>Me and you</p>
+        <p>Me and you</p>
+        <p>Me and you</p>
+        <p>Me and you</p> -->
     </div>
 </body>
 </html>
